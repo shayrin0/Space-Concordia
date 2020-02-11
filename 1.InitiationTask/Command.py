@@ -20,7 +20,6 @@ while True:
         print(a.analog_read(14))
     elif user_cmd == 'write':
         cmd = input("1 or 0 ? ")
-        print(type(cmd))
         a.digital_write(13,int(cmd))
 
 
